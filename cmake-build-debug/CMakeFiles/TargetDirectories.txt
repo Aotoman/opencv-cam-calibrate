@@ -1,3 +1,0 @@
-/home/wlx/CLionProjects/opencv-cam-calibrate/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/wlx/CLionProjects/opencv-cam-calibrate/cmake-build-debug/CMakeFiles/opencv_cam_calibrate.dir
-/home/wlx/CLionProjects/opencv-cam-calibrate/cmake-build-debug/CMakeFiles/edit_cache.dir
