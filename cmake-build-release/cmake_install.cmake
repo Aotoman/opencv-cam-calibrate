@@ -1,4 +1,4 @@
-# Install script for directory: /home/wlx/CLionProjects/opencv_cam_calibrate
+# Install script for directory: /home/wlx/CLionProjects/opencv-cam-calibrate
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/wlx/CLionProjects/opencv_cam_calibrate/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/wlx/CLionProjects/opencv-cam-calibrate/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,6 +1,6 @@
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
-#include <opencv2/imgproc/imgproc.hpp>
+//#include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/calib3d/calib3d.hpp>
 #include <fstream>
 #include <iostream>
@@ -35,12 +35,12 @@ int main(int argc, char *argv[]) {
         std::cout << "----------------------------" << std::endl;
         img_points_seq.push_back(img_points_buf);
         cv::drawChessboardCorners(img, corner_size, img_points_buf, 1);
-        cv::namedWindow(imgFileName, 0);
+        cv::namedWindow(imgFileName, 1);//flag=0:自适应窗口大小
         cv::imshow(imgFileName, img);
-        cv::waitKey(500);
+        cv::waitKey(100);
         image_count++;
     }
-    cv::Size square_size(10, 10);//real size(mm)
+    cv::Size square_size(32, 32);//real size(mm)
     std::vector<std::vector<cv::Point3f>> object_points;//real 3D coord(all img)
     cv::Mat cameraMatrix = cv::Mat(3, 3, CV_32FC1, cv::Scalar::all(0)); /* 摄像机内参数矩阵 */
     //std::vector<int> point_counts;  // 每幅图像中角点的数量

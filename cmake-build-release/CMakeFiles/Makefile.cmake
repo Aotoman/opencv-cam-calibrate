@@ -101,7 +101,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/clion-2019.2.1/bin/cmake/linux/share/cmake-3.14/Modules/Platform/Linux.cmake"
   "/opt/clion-2019.2.1/bin/cmake/linux/share/cmake-3.14/Modules/Platform/UnixPaths.cmake"
   "/opt/clion-2019.2.1/bin/cmake/linux/share/cmake-3.14/Modules/ProcessorCount.cmake"
-  "/usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake"
   "/usr/local/share/OpenCV/OpenCVConfig-version.cmake"
   "/usr/local/share/OpenCV/OpenCVConfig.cmake"
   "/usr/local/share/OpenCV/OpenCVModules-release.cmake"

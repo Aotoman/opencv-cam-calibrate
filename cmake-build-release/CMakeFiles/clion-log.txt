@@ -1,4 +1,4 @@
-/opt/clion-2019.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /home/wlx/CLionProjects/opencv_cam_calibrate
+/opt/clion-2019.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /home/wlx/CLionProjects/opencv-cam-calibrate
 -- The C compiler identification is GNU 7.4.0
 -- The CXX compiler identification is GNU 7.4.0
 -- Check for working C compiler: /usr/bin/cc
@@ -15,4 +15,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/wlx/CLionProjects/opencv_cam_calibrate/cmake-build-release
+-- Build files have been written to: /home/wlx/CLionProjects/opencv-cam-calibrate/cmake-build-release
